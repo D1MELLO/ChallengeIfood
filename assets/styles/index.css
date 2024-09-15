@@ -1,0 +1,59 @@
+.imgLogo {
+    width: 70px;
+    height: 37px;
+}
+
+.btn-createAccount {
+    color: red;
+}
+
+.btn-createAccount:hover {
+    border: 1px solid red;
+    color: red;
+}
+
+.navDiv {
+    width: 100vw;
+}
+
+.ifoodGirl {
+    width: 800px;
+    height: 600px;
+}
+
+.title {
+    color: #000;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    width: 400px;
+}
+
+.subtitle {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    width: 400px;
+}
+
+.btn-red {
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+}
+
+.btn-red:hover {
+    border: 1px solid red;
+    color: red;
+}
+
+.footer {
+    border-top: 2px solid rgba(62, 62, 62, 0.30);
+    background: #F8F8F8;
+}
+

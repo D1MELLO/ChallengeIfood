@@ -1,0 +1,14 @@
+.modal {
+    background: red;
+    width: 640px;
+    height: 511px;
+    position: absolute; /* Centralizar usando position */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Move o modal para o centro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10; /* Ajuste o z-index para garantir visibilidade */
+}
