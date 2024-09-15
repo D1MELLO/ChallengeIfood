@@ -1,59 +1,76 @@
+/* Header */
+
 .imgLogo {
     width: 70px;
     height: 37px;
 }
 
 .btn-createAccount {
-    color: red;
+    color: var(--red-Ifood);
 }
 
 .btn-createAccount:hover {
-    border: 1px solid red;
-    color: red;
+    border: 1px solid var(--red-Ifood);
+    color: var(--red-Ifood);
 }
 
 .navDiv {
-    width: 100vw;
+    width: 100%;
+}
+
+/* Main */
+
+.main {
+    margin-top: 50px;
 }
 
 .ifoodGirl {
-    width: 800px;
-    height: 600px;
+    width: 500px;
+    height: 400px;
 }
 
 .title {
     color: #000;
     text-align: center;
     font-family: var(--font-family);
-    font-size: 48px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    width: 400px;
+    width: 300px;
 }
 
 .subtitle {
     color: #000;
     text-align: center;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 200;
-    width: 400px;
+    width: 280px;
 }
 
 .btn-red {
     color: white;
-    background-color: red;
-    border: 1px solid red;
+    background-color: var(--red-Ifood);
+    border: 1px solid var(--red-Ifood);
 }
 
 .btn-red:hover {
-    border: 1px solid red;
-    color: red;
+    border: 1px solid var(--red-Ifood);
+    color: var(--red-Ifood);
 }
+
+/* Footer */
 
 .footer {
     border-top: 2px solid rgba(62, 62, 62, 0.30);
     background: #F8F8F8;
+    font-family: var(--font-family);
+    font-size: 12px;
+    padding-top: 10px;
 }
 
+.footer > div > img {
+    width: 35px;
+    margin-bottom: 10px;
+}

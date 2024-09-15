@@ -2,7 +2,10 @@
 
 @import url("./index.css");
 @import url("./choice.css");
+@import url("./enterprise_login.css");
+@import url("./enterprise_signup.css");
 
 :root {
     --font-family: "Inter", sans-serif;
+    --red-Ifood: #EA1D2C;
 }

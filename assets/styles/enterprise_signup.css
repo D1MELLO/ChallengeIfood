@@ -1,0 +1,94 @@
+.cadastro {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.modal_1 {
+    background: var(--red-Ifood);
+    width: 325px;
+    height: 380px;
+    flex-shrink: 0;
+    padding-top: 20px;
+}
+
+.title_m1 {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.modal_2 {
+    width: 325px;
+    height: 380px;
+    flex-shrink: 0;
+    padding-top: 20px;
+}
+
+.title_m2 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.subtitle {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    width: 250px;
+    padding-top: 50px;
+}
+
+.ifoodBoy {
+    width: 400px;
+    height: 300px;
+}
+
+.login_link {
+    color: var(--red-Ifood);
+    text-decoration: none;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer {
+    border-top: 2px solid rgba(62, 62, 62, 0.30);
+    background: #F8F8F8;
+    font-family: var(--font-family);
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.footer>div>img {
+    width: 35px;
+    margin-bottom: 10px;
+}
+
+.btn-submit {
+    border: 1px solid var(--red-Ifood);
+    color: white;
+    background: var(--red-Ifood);
+    width: 100px;
+    height: 40px;
+}
+
+.submit {
+    margin-top: 50px;
+}
+
+.form > div > input {
+    border: 1px solid var(--red-Ifood);
+    border-radius: 5px;
+    margin: 5px;
+}
+    
